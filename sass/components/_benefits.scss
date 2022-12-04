@@ -1,0 +1,24 @@
+.benefits-list {
+    display: flex;
+    &__item+&__item {
+            margin-left: 30px;
+        }
+}
+
+.benefits-list__svg {
+    padding: 25px 100px;
+    background-color: var(--teem-bg);
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.list-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--link-list-text);
+    letter-spacing: 0.03em;
+    width: 270px;
+}
