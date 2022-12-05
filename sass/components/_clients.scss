@@ -1,11 +1,9 @@
 .clients-list {
     display: flex;
     gap: 30px;
-}
-
-.clients-list__item {
-    display: flex;
-
+    &__item {
+            display: flex;
+        }
 }
 
 .client-link {
